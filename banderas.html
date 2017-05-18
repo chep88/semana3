@@ -47,7 +47,7 @@
 		.clearfix{
 			clear: both;
 		}
-		.float{
+		.contenedorBandera{
 			float: left;
 			margin: 1%;
 			border-style:solid;
@@ -56,41 +56,69 @@
 			height: 30%;
 		}
 
+		.vertical{
+
+			width: 25%;
+			height: 100%;
+			background-color: red;
+			float: left;
+
+		}
+
+		.horizontal{
+			width: 75%;
+			height: 33%;
+			float: left;
+		}
+
+		.green{
+			background-color: green;
+			float: left;
+		}
+
+		.black{
+			background-color: black;	
+			float: left;
+		}
+		.white{
+			background-color: white;	
+			float: left;
+		}
+		
+
+
 	</style>
 </head>
 <body>
 	
 
-	<div class="espania float">
+	<div class="espania contenedorBandera">
 		<div class="franjaRoja"></div>	
 		<div class="franjaYellow"></div>	
 	</div>
 
-	<div class="dinamarca float">
+	<div class="dinamarca contenedorBandera">
 
-		<div class="cuadrado arriba">
-
-		</div>
-		
-		<div class="rectangulo arriba">
-
-		</div>
-		<div class="cuadrado abajo clearfix">
-
-		</div>
-		
-		<div class="rectangulo abajo">
-
-		</div>
+		<div class="cuadrado arriba"></div>
+		<div class="rectangulo arriba"></div>
+		<div class="cuadrado abajo clearfix"></div>	
+		<div class="rectangulo abajo"></div>
 
 		
 	</div>
 
-	<div class="emiratos float clearfix">
+	<div class="emiratos contenedorBandera clearfix">
+
+		<div class="vertical"> </div>
+
+		<div class="horizontal green"> </div>
+		<div class="horizontal white"> </div>
+
+		<div class="horizontal black"></div>
 
 	</div>
 
-	<div class="japon float">
+	<div class="japon contenedorBandera">
 
 	</div>
 
