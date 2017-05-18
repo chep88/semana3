@@ -6,11 +6,7 @@
 
 		.espania{
 			background-color: red;
-			width: 30%;
-			height: 30%;
-			float: left;
-			border-style:solid;
-			border-width: 1px;
+
 		}
 
 		.franjaRoja{
@@ -51,18 +47,26 @@
 		.clearfix{
 			clear: both;
 		}
+		.float{
+			float: left;
+			margin: 1%;
+			border-style:solid;
+			border-width: 1px;
+			width: 30%;
+			height: 30%;
+		}
 
 	</style>
 </head>
 <body>
 	
 
-	<div class="espania">
+	<div class="espania float">
 		<div class="franjaRoja"></div>	
 		<div class="franjaYellow"></div>	
 	</div>
 
-	<div class="dinamarca">
+	<div class="dinamarca float">
 
 		<div class="cuadrado arriba">
 
@@ -82,10 +86,11 @@
 		
 	</div>
 
-	<div class="emiratos">
+	<div class="emiratos float clearfix">
 
 	</div>
-	<div class="japon">
+
+	<div class="japon float">
 
 	</div>
 
